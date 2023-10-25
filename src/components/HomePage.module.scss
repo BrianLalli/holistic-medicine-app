@@ -1,0 +1,44 @@
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+      color: #333;
+    }
+  
+    p {
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      color: #777;
+    }
+  
+    .startQuizButton {
+      padding: 10px 20px;
+      font-size: 1.1em;
+      color: #fff;
+      background-color: #007BFF; // Change this to your preferred color
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;  // Since it's a link
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;  // Darken on hover
+      }
+  
+      &:active {
+        background-color: #004499;  // Even darker on active click
+      }
+  
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);  // Add a focus ring for accessibility
+      }
+    }
+  }
+  
