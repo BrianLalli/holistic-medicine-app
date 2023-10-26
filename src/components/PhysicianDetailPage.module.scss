@@ -1,0 +1,57 @@
+.physicianDetailPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+
+    h2 {
+        color: #007BFF; // Primary Blue
+        font-size: 2.4em;
+        margin-bottom: 30px;
+    }
+
+    .physicianInfo {
+        background-color: #F6F6F6; // Light gray background
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); // A subtle shadow for depth
+        width: 100%;
+        max-width: 800px; // Adjust based on your design preference
+
+        h3 {
+            font-size: 2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #777; // Slightly lighter gray for text
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .contactInfo {
+            background-color: #F6F6F6; // Same light gray background as the other pages
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px; // Adding some margin to separate it from the other content
+
+            span {
+                color: #555;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            a {
+                color: #007BFF;
+                margin-bottom: 10px;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

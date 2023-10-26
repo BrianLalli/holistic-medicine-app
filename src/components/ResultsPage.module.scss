@@ -1,0 +1,66 @@
+.resultsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+
+    h2 {
+        color: #007BFF; // Primary Blue
+        font-size: 2.2em;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        list-style-type: none; // This removes the bullet points
+        padding: 0; // This removes any default padding
+        margin: 0; // This removes any default margin
+    }
+
+    .physicianCard {
+        background-color: #F6F6F6; // Light gray background
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); // A subtle shadow for depth
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 600px; // Adjust based on your design preference
+        text-align: center;
+
+    
+
+        h3 {
+            font-size: 1.6em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #777; // Slightly lighter gray for description text
+            margin-bottom: 15px;
+        }
+
+        .learnMoreButton {
+            display: inline-block;
+            padding: 8px 15px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+
+            &:active {
+                background-color: #004499;
+            }
+
+            &:focus {
+                outline: none;
+                box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+            }
+        }
+    }
+}
